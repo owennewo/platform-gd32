@@ -17,7 +17,8 @@
         "0x0004"
       ]
     ],
-    "spl_sub_series": "HD"
+    "spl_sub_series": "HD",
+    "variant": "XIAOMI_CYBERGEAR"
   },
   "debug": {
     "jlink_device": "GD32F303RE",
