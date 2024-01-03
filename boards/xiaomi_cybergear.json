@@ -2,7 +2,7 @@
   "build": {
     "core": "gd32",
     "cpu": "cortex-m4",
-    "extra_flags": "-DGD32F3 -DGD32F303 -DGD32F30x -DGD32F30X_HD",
+    "extra_flags": "-DGD32F3 -DGD32F303 -DGD32F30x -DGD32F30X_HD -DDEFAULT_HWSERIAL_INSTANCE=2 -DHXTAL_VALUE=16000000U",
     "f_cpu": "120000000L",
     "mcu": "gd32f303ret6",
     "spl_series": "GD32F30x",
